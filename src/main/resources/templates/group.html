@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Group Members</title>
+</head>
+<body>
+    <h1>Our Group Members</h1>
+    <div th:each="member : ${members}">
+        <p th:text="'Name: ' + ${member.name} + ', Role: ' + ${member.role}"></p>
+    </div>
+</body>
+</html>
