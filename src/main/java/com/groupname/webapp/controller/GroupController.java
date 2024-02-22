@@ -14,6 +14,8 @@ public class GroupController {
     public String showGroup(Model model) {
         List<Member> members = Arrays.asList(
             new Member("Jaimin", "DB Analyst", "member1.jpg") 
+            new Member("Alex", "Frontend Developer", "member2.jpg") // New member added
+            new Member("Alex", "Frontend Developer", "member2.jpg") // New member added
            
         );
 
