@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.groupname.webapp.controller","l":"GroupController"},{"p":"com.groupname.webapp","l":"GroupNameWebappApplication"},{"p":"com.groupname.webapp.model","l":"Member"}];updateSearchResults();
