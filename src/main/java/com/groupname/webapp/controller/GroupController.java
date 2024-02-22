@@ -12,17 +12,12 @@ public class GroupController {
 
     @GetMapping("/group")
     public String showGroup(Model model) {
-        // Sample member list
         List<Member> members = Arrays.asList(
-            new Member("Member1", "Role1"),
-            new Member("Member2", "Role2")
-            // Add more members as needed
+            new Member("Jaimin", "DB Analyst", "member1.jpg") 
+           
         );
 
-        // Add members to the model
         model.addAttribute("members", members);
-
-        // Return the view name
         return "group";
     }
 }
